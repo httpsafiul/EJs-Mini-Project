@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title><%= title%></title>
+</head>
+<body>
+    <%- include('./partials/nav.ejs')%>
+    <h1 class="heading-2">Sign Up</h1>
+    <br>
+    <div class="sign-input-field">
+        <br>
+        <br>
+        <label class="labels" for="name">Enter Your Name</label>
+        <input class="login-fileds" id="name" type="text">
+        <label class="labels" for="email">Enter Your Email</label>
+        <input class="login-fileds" id="email" type="text">
+        <label class="labels" for="create-password">Create a Password</label>
+        <input class="login-fileds" id="create-password" type="password">
+        <label class="labels" for="confirm-password">Confirm Password</label>
+        <input class="login-fileds" id="confirm-password" type="password">
+        <br>
+        <div class="accept">
+        <input type="checkbox"><span>Accept all terms and conditions</span>
+        
+    </div>
+        <br>
+        <div>
+        <button class="btn btn2">Sign Up</button>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+body{
+    background-image: linear-gradient(to right, #FF61D2, #FE9090);
+    padding-top: 35px;
+}
+
+.outer{
+    background-color: rgb(103 107 159);
+    width: 450px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.elements{
+    display: inline-block;
+    width: 190px;
+    height: 35px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+.anchor{
+    font-size: large;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.heading{
+    color:  rgb(8, 2, 102);
+    width: 550px;
+    text-align: center;
+    justify-content: center;
+    margin: 180px auto 0px auto;
+    font-family: sans-serif;
+}
+
+.heading-2{
+    color:  rgb(8, 2, 102);
+    width: 550px;
+    text-align: center;
+    justify-content: center;
+    margin: 25px auto 0px auto;
+    font-family: sans-serif;
+}
+
+.input-field{
+    width: 450px;
+    height: 320px;
+    background-color: rgb(103 107 159);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    border-radius: 10px;
+}
+
+.sign-input-field{
+    width: 450px;
+    height: 465px;
+    background-color: rgb(103 107 159);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    border-radius: 10px;
+}
+
+.login-fileds{
+    width: 390px;
+    display: block;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0 8px 25px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(17, 19, 36);
+    border-radius: 5px;
+}
+
+.labels{
+    margin-left: 20px;
+    font-size: large;
+    font-family: sans-serif;
+    color: #e9e5e6;
+}
+
+.forgot{
+    text-align: right;
+    margin-right: 17.5px;
+    color: #872d2d;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.accept{
+    text-align: right;
+    margin-right: 17.5px;
+    color: #1a1717;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.btn {
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #ed2121;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #f54c4c;
+    text-decoration: none;
+  }
+
+  .btn2{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: auto;
+  }

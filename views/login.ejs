@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title><%= title%></title>
+</head>
+<body>
+    <%- include('./partials/nav.ejs')%>
+    <h1 class="heading-2">Login</h1>
+    <br>
+    <div class="input-field">
+        <br>
+        <br>
+        <br>
+        <label class="labels" for="email">Email</label>
+        <input class="login-fileds" id="email" type="text">
+        <label class="labels" for="password">Password</label>
+        <input class="login-fileds" id="password" type="text">
+        <br>
+        <div class="forgot">
+        <a class="forgot" href="#">Forgot Password?</a>
+        
+    </div>
+        <br>
+        <div>
+        <button class="btn btn2">Login</button>
+    </div>
+    </div>
+</body>
+</html>
