@@ -12,6 +12,7 @@ body{
     border-radius: 10px;
 }
 
+
 .elements{
     display: inline-block;
     width: 190px;
@@ -28,6 +29,11 @@ body{
     text-decoration: none;
     color: white;
     font-weight: bolder;
+}
+
+.active{
+    color: #e5d40b;
+    font-weight: 900;
 }
 
 .heading{
